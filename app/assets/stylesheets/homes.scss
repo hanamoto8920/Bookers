@@ -1,0 +1,85 @@
+// Place all the styles related to the homes controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 15px;
+  line-height: 20px;
+  margin: 50px;
+  
+}
+
+p {
+  margin: 20px;
+}
+
+.books-title {
+  font-size: 25px;
+  margin: 30px;
+}
+
+table {
+  margin: 45px;
+  padding: 30px;
+}
+
+th {
+  margin: 40px;
+}
+
+td {
+  margin: 40px,30px;
+}
+
+.new {
+  margin: 12px;
+  font-size: 20px;
+}
+
+.new-book {
+  margin: 20px;
+}
+
+.title-post {
+  margin: 10px;
+}
+
+.body-post {
+  margin: 10px;
+}
+
+.create-book {
+  margin: 10px;
+}
+
+
+// エラーの部分
+
+
+.keikoku {
+  margin:10px;
+  background-color: grey;
+  wight: auto;
+  height: 200px;
+}
+
+.error-text {
+  background-color: red;
+  margin:50px;
+  padding: 30px;
+}
+
+
+
+// 成功メッセージ
+.text {
+  color:green;
+  margin:50px;
+}
